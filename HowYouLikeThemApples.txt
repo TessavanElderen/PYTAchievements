@@ -1,0 +1,20 @@
+trees = 333 				#hoeveel bomen zijn er in totaal? 
+shadeTrees = 222 			#hoeveel bomen staan er in de schaduw (afgerond naar boven)? 
+sunnyTrees = trees - shadeTrees			#hoeveel in de zon? 
+shadeOutputModifier = 80 	#hoeveel procent productie geeft een schaduwboom?
+sunnyTreesOutput = 146		#hoeveel appels geeft 1 zonnige boom?
+shadeTreeOutput = (sunnyTreeOutput / 100) * shadeOutputModifier 		#hoeveel appels geeft 1 schaduw boom? 
+sunnyOutput = 16206			#hoeveel appels geven alle zonnige bomen?
+shadeOutput = 25752			#hoeveel appels geven alle schaduw bomen?
+totalOutput = 41958			#hoeveel appels zijn er in totaal? 
+owners = 4 					#met hoeveel mensen verdelen we de appels? 
+eatCount = 1 				#hoeveel appels houden we over omdat ze niet eerlijk te verdelen zijn? 
+sellableOutput = 10489		#hoeveel appels zijn er over en dus verkoopbaar? 
+cut = 10489					#hoeveel appels mag ik verkopen? 
+print(333-333)				#hoeveel bomen in de zon. 
+print(146/100*80)			#hoeveel appels in een schadow boom. 
+print(146*111)				#hoeveel appels vallen van de zonne bomen.
+print(116*222)				#hoeveel appels vallen van alles bomen in de schaduw.
+print(16206+25752)			#hoeveel appels zijn er in totaal.
+print(41958/4)				#hoeveel appels per persoon kan je verdelen. 
+print(cut)					#hoeveel appels mag ik verkopen.  
