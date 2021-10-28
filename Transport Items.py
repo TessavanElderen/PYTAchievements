@@ -1,3 +1,4 @@
+from os import system, name
 import re 
 import time
 
@@ -43,17 +44,17 @@ def transport():
     clear()
     text()
     time.sleep(1.5)
-    factory.doll(0)
+    factory.pop(0)
     distribution.insert(0, item)
     clear()
     text()
     time.sleep(1.5)
-    distribution.doll(0)
+    distribution.pop(0)
     shop.insert(0, item)
     clear()
     text()
     time.sleep(1.5)
-    shop.doll(0)
+    shop.pop(0)
     clear()
     text()
     time.sleep(1.5)
